@@ -1,7 +1,7 @@
 ## 👋 End-to-End Automation Testing with Pytest & Selenium
 
 Multi-browser framework for End-to-End Automation Testing with PyTest-Selenium and Page Object Model.
-The test examples were performed in the "DEMOQA" website which is a website for QA Practice.
+The test examples were performed in the "GlobalSQA" website which is a website for QA Practice.
 
 ## ✨ Pre-requisites:
 
