@@ -2,7 +2,6 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from GlobalSQA.POM.pages.home_page import HomePage
-from GlobalSQA.POM.pages.select_menu_page import SelectMenuPage
 from GlobalSQA.TestingData import test_data
 
 
@@ -34,7 +33,6 @@ def get_driver(request, get_browser):
     driver.implicitly_wait(10)
     ## Add in here each page from the POM in order to initialize the driver for each one.
     request.cls.home_page = HomePage(driver)
-    request.cls.select_menu_page = SelectMenuPage(driver)
     driver.get(test_data.url)
     yield driver
     driver.quit()
